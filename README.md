@@ -1,7 +1,8 @@
-# 🎲 Domino | Web Game  
+# 🎲 Domino | Web Game | Single Player
 
 🚀 **Domino Web Game** is a **strategic board game** based on the classic **domino tile-matching game**, where players compete by placing tiles with matching numbers. The game supports **single-player, multiplayer, and AI opponent modes**, offering an engaging and competitive experience.  
 
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Domino/)
 ---
 
 ## 🏆 Features  
