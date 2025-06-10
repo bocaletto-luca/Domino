@@ -1,0 +1,144 @@
+ /* RESET & BASE STYLES */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f5f5f5; 
+      color: #333; 
+      line-height: 1.6; 
+    }
+    header, footer {
+      background: #fff; 
+      text-align: center; 
+      padding: 15px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 { margin-bottom: 20px; }
+    /* TABS NAVIGATION */
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #007BFF;
+      margin-bottom: 20px;
+    }
+    .tabs button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 1rem;
+      color: #007BFF;
+      border-bottom: 4px solid transparent;
+      transition: all 0.3s;
+    }
+    .tabs button.active {
+      border-bottom-color: #007BFF;
+      font-weight: bold;
+    }
+    .tabcontent { display: none; }
+    .tabcontent.active { display: block; }
+    /* GAME CONTROLS & STATUS */
+    .game-controls, .status {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .game-controls input, .game-controls select {
+      padding: 5px;
+      margin: 0 10px;
+      font-size: 1rem;
+    }
+    .game-controls button {
+      padding: 7px 15px;
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 5px;
+      transition: background 0.3s;
+    }
+    .game-controls button:hover {
+      background: #0056b3;
+    }
+    .status span {
+      font-weight: bold;
+      margin: 0 10px;
+    }
+    /* Board Layout */
+    .board-section {
+      margin-bottom: 20px;
+    }
+    .board-title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    /* Domino Tile Styles */
+    .domino {
+      width: 60px;
+      height: 30px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      margin: 5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      cursor: pointer;
+      user-select: none;
+      background: #007BFF;
+      transition: background 0.3s;
+    }
+    .domino.back {
+      background: #555;
+      color: #555;
+      cursor: default;
+    }
+    .domino.empty {
+      background: #ccc;
+      cursor: default;
+    }
+    .domino.correct { background: green; }
+    .domino.wrong { background: red; }
+    /* Chain and Hand Containers */
+    #chainContainer, #playerHand, #computerHand {
+      text-align: center;
+      margin: 0 auto 20px;
+      min-height: 40px;
+    }
+    /* Records Table */
+    #recordsTable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    #recordsTable th, #recordsTable td {
+      border: 1px solid #007BFF;
+      padding: 8px;
+      text-align: center;
+    }
+    #recordsTable th { background: #007BFF; color: #fff; }
+    #recordsArea {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-top: 10px;
+    }
+    .btn-clear {
+      padding: 7px 15px;
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+    .btn-clear:hover { background: #c0392b; }
+    footer { margin-top: 20px; box-shadow: 0 -2px 4px rgba(0,0,0,0.1); }
