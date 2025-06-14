@@ -1,4 +1,5 @@
 # 🎲 Domino | Web Game | Single Player
+#### Author: Bocaletto Luca
 
 🚀 **Domino Web Game** is a **strategic board game** based on the classic **domino tile-matching game**, where players compete by placing tiles with matching numbers. The game supports **single-player, multiplayer, and AI opponent modes**, offering an engaging and competitive experience.  
 
